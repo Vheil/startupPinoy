@@ -1,0 +1,233 @@
+
+body, html {
+
+font-family: 'Oswald', sans-serif;
+
+
+}
+ /*navbar*/
+#brandName {
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+    text-align: center;
+	color: #F7B538;
+	font-weight: bolder;
+	border: solid 1px;
+	background-color: #780116;
+	padding: 5px 2px 2px 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav {
+	margin-bottom: 20px;
+}
+
+/*end of navbar*/
+
+
+
+
+#box1 img {
+	border: solid 1px black;
+	width: 100%;
+	height: 100%;
+	box-shadow: 2px 2px grey;
+}
+
+
+
+.pagination	{
+	float: left;
+}
+
+/*sidenav*/
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	padding-left: 10px;
+	overflow-x: hidden;
+	padding-top: 50px;
+}
+
+.sidenav a {
+	padding: 6px 6px 6px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	padding-left: 10px;
+	border-radius: 5%;
+	padding-left: 8px;
+	background-color: #780116;
+	color: #F7B538;
+}
+
+.sidenav a:hover {
+	color: white;
+}
+
+@media screen and (max-height: 450){
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+.main {
+	padding-left: 200px;
+
+}
+
+/*end of sidenav*/
+
+/*admin area*/
+
+
+#zoom {
+   	padding-top: 20px;
+}
+
+#zoom1 {
+   	
+   	transition: transform .2s;
+    margin: 0 auto;
+}
+
+#zoom1:hover {
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25); 
+}
+
+
+/*footer*/
+footer {
+	margin-top: 80px;
+	padding: 20px 20px 20px 20px;
+	background-color: #E6ECF2;
+}
+
+#footerContainer {
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+#footerContainer img {
+	width: 250px;
+	height: 150px;
+	border: 1px solid;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/* end of footer*/
+
+/*card*/
+.card {
+    /*display: inline-block;*/
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 2px 2px grey;
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card .card-image .card-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .ftr {
+    margin-top: 15px;
+}
+
+.card .ftr div {
+    display: inline-block;
+}
+
+.card .ftr .author {
+    color: #888;
+}
+
+.card .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+
+.card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+
+/*end of card*/
+
+
+
